@@ -1,0 +1,23 @@
+Error 1:Generated script 'C:\\Grohit_win_build\\jiva_buildout\\bin\\zeo_srv_service'.
+Installing mssqlconf.
+While:
+  Installing mssqlconf.
+
+  An internal error occurred due to a bug in either zc.buildout or in a
+  recipe being used:
+  Traceback (most recent call last):
+    File "c:\grohit_win_build\jiva_buildout\tmp\tmpflbgal\zc.buildout-1.7.1-py2.6.
+    egg\zc\buildout\buildout.py", line 1866, in main
+      File "c:\grohit_win_build\jiva_buildout\tmp\tmpflbgal\zc.buildout-1.7.1-py2.6.
+      egg\zc\buildout\buildout.py", line 625, in install
+        File "c:\grohit_win_build\jiva_buildout\tmp\tmpflbgal\zc.buildout-1.7.1-py2.6.
+	egg\zc\buildout\buildout.py", line 1345, in _call
+	  File "build\bdist.win32\egg\zeomega\recipe\winodbcdsn\__init__.py", line 102,
+	  in install
+	  WindowsError: [Error 5] Access is denied
+
+Solution:
+	 
+
+
+-------------------------------------------------------------------------------	 
