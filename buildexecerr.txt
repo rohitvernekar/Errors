@@ -29,3 +29,29 @@ est in a timely fashion.
 
 Solution :python26.dll for python installed directory was not in system32 directory.so you need to copy that file 
 into system32.
+
+
+-------------------------------------------------------------------------------------------------------------
+C:\Grohit_build_win\jiva_buildout>bin\zope_c1.exe fg
+Traceback (most recent call last):
+  File "c:\grohit_build_win\jiva_buildout\eggs\zope2-2.12.22-py2.6-win32.egg\Zop
+e2\Startup\run.py", line 56, in <module>
+    run()
+  File "c:\grohit_build_win\jiva_buildout\eggs\zope2-2.12.22-py2.6-win32.egg\Zop
+e2\Startup\run.py", line 17, in run
+    import Zope2.Startup
+  File "c:\Grohit_build_win\jiva_buildout\eggs\Zope2-2.12.22-py2.6-win32.egg\Zop
+e2\__init__.py", line 60, in <module>
+    from Zope2.Startup.run import configure
+  File "c:\Grohit_build_win\jiva_buildout\eggs\Zope2-2.12.22-py2.6-win32.egg\Zop
+e2\Startup\__init__.py", line 27, in <module>
+    from zope.event import notify
+ImportError: No module named event
+
+
+
+
+Solution:
+
+
+---------------------------------------------------------------------------------------------------------------
