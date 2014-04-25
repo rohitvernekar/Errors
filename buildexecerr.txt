@@ -16,8 +16,16 @@ While:
 	  in install
 	  WindowsError: [Error 5] Access is denied
 
-Solution:
+Solution:  dont execute on git bash except for git commands.
 	 
 
 
 -------------------------------------------------------------------------------	 
+Error 2:C:\Grohit_win_build\jiva_buildout>bin\zeo_srv_service.exe start
+Starting service ZEO_-1219517520
+Error starting service: The service did not respond to the start or control requ
+est in a timely fashion.
+
+
+Solution :python26.dll for python installed directory was not in system32 directory.so you need to copy that file 
+into system32.
