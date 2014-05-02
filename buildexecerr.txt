@@ -55,3 +55,32 @@ Solution:
 
 
 ---------------------------------------------------------------------------------------------------------------
+ImportError: libaio.so.1: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/Zope2/Startup/run.py", line 56, in <module>
+    run()
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/Zope2/Startup/run.py", line 21, in run
+    starter.prepare()
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/Zope2/Startup/__init__.py", line 87, in prepare
+    self.startZope()
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/Zope2/Startup/__init__.py", line 264, in startZope
+    Zope2.startup()
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/Zope2/__init__.py", line 47, in startup
+    _startup()
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/Zope2/App/startup.py", line 57, in startup
+    OFS.Application.import_products()
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/OFS/Application.py", line 573, in import_products
+    import_product(product_dir, product_name, raise_exc=debug_mode)
+  File "/home/grohit/rohit_build/jiva_buildout/eggs/Zope2-2.12.22-py2.6-linux-i686.egg/OFS/Application.py", line 596, in import_product
+    product=__import__(pname, global_dict, global_dict, silly)
+  File "build/bdist.linux-i686/egg/Products/ZeOver/__init__.py", line 63, in <module>
+    self.event_logger.addHandler(self.startup_handler)
+  File "build/bdist.linux-i686/egg/Products/ZeOver/sql_alchemy_zeda_oracle.py", line 20, in <module>
+ImportError: libaio.so.1: cannot open shared object file: No such file or directory
+
+
+Solution:
+
+
+
+=====================================================================================================================
